@@ -1,2 +1,26 @@
-# gnome-shell-adjustment
-gnome-shell-adjustment
+
+
+# Home
+
+| Link | GitHub |
+| ---- | ------ |
+| [Gnome Shell Adjustment](https://samwhelp.github.io/gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/gnome-shell-adjustment) |
+
+
+
+
+## Keybind
+
+| Keybind |
+| --- |
+| [Keyboard](https://samwhelp.github.io/gnome-shell-adjustment/read/config/keybind.html) |
+| [Mouse](https://samwhelp.github.io/gnome-shell-adjustment/read/config/mousebind.html) |
+
+
+
+
+## Link
+
+| Link | GitHub |
+| ---- | ------ |
+| [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
