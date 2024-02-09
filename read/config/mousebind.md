@@ -60,6 +60,8 @@ parent: Config
 | Mousebind                      | Action                      |
 | ------------------------------ | --------------------------- |
 | `[Mouse Right Click]`          | Show Root Menu              |
+| `Win + [Mouse Middle Up]`      | Previous Workspace          |
+| `Win + [Mouse Middle Down]`    | Next Workspace              |
 
 
 ## Link
