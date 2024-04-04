@@ -2,11 +2,11 @@
 # Gnome-Terminal
 
 
-## Debian Package
+## Ubuntu Package
 
-| Debian Package |
+| Ubuntu Package |
 | --- |
-| [gnome-terminal](https://packages.debian.org/stable/gnome-terminal) |
+| [gnome-terminal](https://packages.ubuntu.com/noble/gnome-terminal) |
 
 
 ## Usage
