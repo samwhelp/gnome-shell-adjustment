@@ -11,3 +11,25 @@
 | [gnome-shell-layout-advance](gnome-shell-layout-advance) |
 | [gnome-shell-layout-advance-plus-keybind](gnome-shell-layout-advance-plus-keybind) |
 | [gnome-shell-layout-advance-full](gnome-shell-layout-advance-full) |
+
+
+
+
+## Requirement
+
+| Requirement | Note |
+| ----------- | ---- |
+| [gnome-extensions-cli](https://github.com/essembeh/gnome-extensions-cli) | for install extension |
+| [pipx](https://github.com/pypa/pipx) | for install gnome-extensions-cli |
+
+> run to install [pipx](https://packages.debian.org/trixie/pipx) at debian
+
+``` sh
+sudo apt-get install pipx
+```
+
+> run to install gnome-extensions-cli (gext)
+
+``` sh
+sudo pipx install gnome-extensions-cli --global
+```
