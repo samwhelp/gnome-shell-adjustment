@@ -13,6 +13,7 @@
 ## Subject
 
 * [Script](#script)
+* [Resource](#Resource)
 * [Link](#link)
 
 
@@ -23,6 +24,15 @@
 | Script |
 | ------ |
 | [gnome-shell-adjustment](https://github.com/samwhelp/gnome-shell-adjustment/tree/main/demo/scripts/main/gnome-shell-adjustment) |
+
+
+
+
+## Resource
+
+| Gnome Shell Resource |
+| -------------------- |
+| [gnome-shell-enhance](https://github.com/samwhelp/gnome-shell-enhance) |
 
 
 
