@@ -42,6 +42,12 @@
 | Link | GitHub |
 | ---- | ------ |
 | [Pardus Gnome Shell Adjustment](https://samwhelp.github.io/pardus-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/pardus-gnome-shell-adjustment) |
+| [AnduinOS Gnome Shell Adjustment](https://samwhelp.github.io/anduinos-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/anduinos-gnome-shell-adjustment) |
+| [BrgvOS Gnome Shell Adjustment](https://samwhelp.github.io/brgvos-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/brgvos-gnome-shell-adjustment) |
+
+
+| Link | GitHub |
+| ---- | ------ |
 | [Debian Gnome Shell Adjustment](https://samwhelp.github.io/debian-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/debian-gnome-shell-adjustment) |
 | [Ubuntu Gnome Shell Adjustment](https://samwhelp.github.io/ubuntu-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment) |
 | [Fedora Gnome Shell Adjustment](https://samwhelp.github.io/fedora-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-gnome-shell-adjustment) |
