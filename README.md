@@ -21,10 +21,11 @@
 
 ## Script
 
-| Script |
-| ------ |
+| Simple Script |
+| ------------- |
 | [gnome-shell-adjustment](https://github.com/samwhelp/gnome-shell-adjustment/tree/main/demo/scripts/main/gnome-shell-adjustment) |
-
+| [gnome-shell-layout-wincity](https://github.com/samwhelp/gnome-shell-adjustment/tree/main/demo/scripts/layout/gnome-shell-layout-wincity) |
+| [gnome-shell-layout-maccity](https://github.com/samwhelp/gnome-shell-adjustment/tree/main/demo/scripts/layout/gnome-shell-layout-maccity) |
 
 
 
