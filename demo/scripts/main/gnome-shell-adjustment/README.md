@@ -5,10 +5,10 @@
 
 
 
-## Link
+## Subject
 
-* https://github.com/samwhelp/gnome-shell-adjustment/blob/main/demo/scripts/main/gnome-shell-adjustment/gnome-shell-adjustment.sh
-* https://raw.githubusercontent.com/samwhelp/gnome-shell-adjustment/refs/heads/main/demo/scripts/main/gnome-shell-adjustment/gnome-shell-adjustment.sh
+* [Usage](#usage)
+* [Link](#link)
 
 
 
@@ -41,3 +41,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/samwhelp/gnome-shell-adj
 ``` sh
 bash -c "$(wget -q https://raw.githubusercontent.com/samwhelp/gnome-shell-adjustment/refs/heads/main/demo/scripts/main/gnome-shell-adjustment/gnome-shell-adjustment.sh -O - || curl -fsSL https://raw.githubusercontent.com/samwhelp/gnome-shell-adjustment/refs/heads/main/demo/scripts/main/gnome-shell-adjustment/gnome-shell-adjustment.sh)"
 ```
+
+
+
+
+## Link
+
+* https://github.com/samwhelp/gnome-shell-adjustment/blob/main/demo/scripts/main/gnome-shell-adjustment/gnome-shell-adjustment.sh
+* https://raw.githubusercontent.com/samwhelp/gnome-shell-adjustment/refs/heads/main/demo/scripts/main/gnome-shell-adjustment/gnome-shell-adjustment.sh
