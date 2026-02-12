@@ -9,6 +9,7 @@
 
 * [Usage](#usage)
 * [Link](#link)
+* [Layout Profile](#layout-profile)
 
 
 
@@ -48,3 +49,15 @@ bash -c "$(wget -q https://raw.githubusercontent.com/samwhelp/gnome-shell-adjust
 
 * https://github.com/samwhelp/gnome-shell-adjustment/blob/main/demo/scripts/layout/gnome-shell-layout-wincity/gnome-shell-layout-wincity.sh
 * https://raw.githubusercontent.com/samwhelp/gnome-shell-adjustment/refs/heads/main/demo/scripts/layout/gnome-shell-layout-wincity/gnome-shell-layout-wincity.sh
+
+
+
+
+## Layout Profile
+
+| Gnome Extensions | Source |
+| ---------------- | ------ |
+| [dash-to-panel@jderose9.github.com](https://extensions.gnome.org/extension/1160/dash-to-panel/) | [Source](https://github.com/home-sweet-gnome/dash-to-panel) |
+| [arcmenu@arcmenu.com](https://extensions.gnome.org/extension/3628/arcmenu/) | [Source](https://gitlab.com/arcmenu/ArcMenu) |
+| [blur-my-shell@aunetx](https://extensions.gnome.org/extension/3193/blur-my-shell/) | [Source](https://github.com/aunetx/blur-my-shell) |
+| [date-menu-formatter@marcinjakubowski.github.com](https://extensions.gnome.org/extension/4655/date-menu-formatter/) | [Source](https://github.com/marcinjakubowski/date-menu-formatter) |
