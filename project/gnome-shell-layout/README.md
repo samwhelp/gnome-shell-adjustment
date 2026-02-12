@@ -17,10 +17,10 @@
 
 ## Requirement
 
-| Requirement | Note |
-| ----------- | ---- |
-| [gnome-extensions-cli](https://github.com/essembeh/gnome-extensions-cli) | for install extension |
-| [pipx](https://github.com/pypa/pipx) | for install gnome-extensions-cli |
+| Requirement | Note | Installer |
+| ----------- | ---- | --------- |
+| [pipx](https://github.com/pypa/pipx) | for install gnome-extensions-cli | [Installer](./gnome-shell-layout-basic/installer/python-pipx/install.sh) |
+| [gnome-extensions-cli](https://github.com/essembeh/gnome-extensions-cli) | for install extension | [Installer](./gnome-shell-layout-basic/installer/gnome-extensions-cli/install.sh) |
 
 > run to install [pipx](https://packages.debian.org/stable/pipx) at debian
 
