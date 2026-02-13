@@ -282,13 +282,15 @@ cat << __EOF__
 ##
 ## For Example:
 ##
-## \`Super + w\` to Maximize Window.
-##
+## * 'Super + w' to Maximize Window.
+## * 'gsettings list-recursively | grep keybind' to see config via gsettings
+## * 'dconf dump / | less' to see config via dconf
 ##
 
 __EOF__
 
 }
+
 
 
 
