@@ -24,18 +24,84 @@
 
 
 ##
+## ## Model / Gnome Shell / Main
+##
+
+mod_gnome_shell_main_config_install () {
+
+	sys_gnome_shell_main_config_install_for_main
+
+	sys_gnome_shell_main_config_install_for_workspace_main
+
+	sys_gnome_shell_main_config_install_for_favorite_apps
+
+	sys_gnome_shell_main_config_install_for_theme_main
+
+	sys_gnome_shell_main_config_install_for_wallpaper_main
+
+}
+
+sys_gnome_shell_main_config_install_for_main () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_gnome_shell_main_config_install_for_workspace_main () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_gnome_shell_main_config_install_for_favorite_apps () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_gnome_shell_main_config_install_for_theme_main () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_gnome_shell_main_config_install_for_wallpaper_main () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+
+
+
+##
 ## ## Model / Gnome Shell / Keybind
 ##
 
 mod_gnome_shell_keybind_config_install () {
 
-	sys_gnome_shell_keybind_config_install_main
+	sys_gnome_shell_keybind_config_install_for_main
 
-	sys_gnome_shell_keybind_config_install_custom
+	sys_gnome_shell_keybind_config_install_for_custom
 
 }
 
-sys_gnome_shell_keybind_config_install_main () {
+sys_gnome_shell_keybind_config_install_for_main () {
 
 dconf load / << __EOF__
 
@@ -131,7 +197,7 @@ __EOF__
 
 }
 
-sys_gnome_shell_keybind_config_install_custom () {
+sys_gnome_shell_keybind_config_install_for_custom () {
 
 dconf load / << __EOF__
 
@@ -303,6 +369,8 @@ mod_gnome_shell_master_config_install_prepare () {
 }
 
 mod_gnome_shell_master_config_install_main () {
+
+	mod_gnome_shell_main_config_install
 
 	mod_gnome_shell_keybind_config_install
 

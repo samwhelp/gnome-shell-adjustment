@@ -29,13 +29,13 @@
 
 mod_gnome_shell_keybind_config_install () {
 
-	sys_gnome_shell_keybind_config_install_main
+	sys_gnome_shell_keybind_config_install_for_main
 
-	sys_gnome_shell_keybind_config_install_custom
+	sys_gnome_shell_keybind_config_install_for_custom
 
 }
 
-sys_gnome_shell_keybind_config_install_main () {
+sys_gnome_shell_keybind_config_install_for_main () {
 
 dconf load / << __EOF__
 
@@ -131,7 +131,7 @@ __EOF__
 
 }
 
-sys_gnome_shell_keybind_config_install_custom () {
+sys_gnome_shell_keybind_config_install_for_custom () {
 
 dconf load / << __EOF__
 
