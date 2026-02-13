@@ -52,6 +52,41 @@ REF_GNOME_SHELL_EXTENSIONS_DISABLE=(
 
 
 ##
+## ## Util / Command
+##
+
+is_function_exist () {
+
+	if type -p "${1}" > /dev/null; then
+		return 0
+	else
+		return 1
+	fi
+
+}
+
+# is_command_exist () {
+# 	if command -v "${1}" > /dev/null; then
+# 		return 0
+# 	else
+# 		return 1
+# 	fi
+# }
+
+is_command_exist () {
+
+	if [ -x "$(command -v ${1})" ]; then
+		return 0
+	else
+		return 1
+	fi
+
+}
+
+
+
+
+##
 ## ## Model
 ##
 
@@ -222,10 +257,114 @@ __EOF__
 
 
 ##
+## ## Model / Gext
+##
+
+mod_gnome_shell_extensions_cli_install () {
+
+	if is_command_exist gext; then
+
+		return
+
+	fi
+
+	sys_gnome_shell_extensions_cli_install
+
+}
+
+sys_gnome_shell_extensions_cli_install () {
+
+	sys_gnome_shell_extensions_cli_install_via_pipx
+
+}
+
+sys_gnome_shell_extensions_cli_install_via_pipx () {
+
+	sudo pipx install gnome-extensions-cli --global
+
+}
+
+
+
+
+##
+## ## Model / Pipx
+##
+
+mod_python_pipx_install () {
+
+	if is_command_exist pipx; then
+
+		return
+
+	fi
+
+	sys_python_pipx_install
+
+}
+
+sys_python_pipx_install () {
+
+	#sys_python_pipx_install_for_ubuntu
+
+	sys_python_pipx_install_for_debian
+
+	#sys_python_pipx_install_for_fedora
+
+	#sys_python_pipx_install_for_archlinux
+
+	#sys_python_pipx_install_for_voidlinux
+
+
+	return 0
+}
+
+sys_python_pipx_install_for_ubuntu () {
+
+	sudo apt-get install pipx
+
+}
+
+sys_python_pipx_install_for_debian () {
+
+	sudo apt-get install pipx
+
+}
+
+sys_python_pipx_install_for_fedora () {
+
+	sudo dnf install pipx
+
+}
+
+sys_python_pipx_install_for_archlinux () {
+
+	sudo pacman -Sy --needed python-pipx
+
+}
+
+sys_python_pipx_install_for_voidlinux () {
+
+	sudo xbps-install -Su python3-pipx
+
+}
+
+
+
+
+##
 ## ## Portal
 ##
 
-mod_gnome_shell_layout_install () {
+mod_gnome_shell_layout_install_prepare () {
+
+	mod_python_pipx_install
+
+	mod_gnome_shell_extensions_cli_install
+
+}
+
+mod_gnome_shell_layout_install_main () {
 
 	sys_gnome_shell_extensions_install
 
@@ -234,6 +373,14 @@ mod_gnome_shell_layout_install () {
 	sys_gnome_shell_extensions_disable
 
 	sys_gnome_shell_extensions_config
+
+}
+
+mod_gnome_shell_layout_install () {
+
+	mod_gnome_shell_layout_install_prepare
+
+	mod_gnome_shell_layout_install_main
 
 }
 
