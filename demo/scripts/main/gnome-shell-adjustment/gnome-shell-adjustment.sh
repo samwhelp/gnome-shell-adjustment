@@ -24,6 +24,127 @@
 
 
 ##
+## ## Model / Tool
+##
+
+mod_tool_config_install () {
+
+	sys_tool_config_install_for_nautilus
+
+	sys_tool_config_install_for_gedit
+
+	sys_tool_config_install_for_gnome_text_editor
+
+	sys_tool_config_install_for_gnome_terminal
+
+	sys_tool_config_install_for_gnome_console
+
+	sys_tool_config_install_for_ptyxis
+
+	sys_tool_config_install_for_mate_terminal
+
+	sys_tool_config_install_for_nemo
+
+	sys_tool_config_install_for_mousepad
+
+	sys_tool_config_install_for_plank
+
+}
+
+sys_tool_config_install_for_nautilus () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_tool_config_install_for_gedit () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_tool_config_install_for_gnome_text_editor () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_tool_config_install_for_gnome_terminal () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_tool_config_install_for_gnome_console () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_tool_config_install_for_ptyxis () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_tool_config_install_for_mate_terminal () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_tool_config_install_for_nemo () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_tool_config_install_for_mousepad () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+sys_tool_config_install_for_plank () {
+
+dconf load / << __EOF__
+
+
+__EOF__
+
+}
+
+
+
+
+##
 ## ## Model / Gnome Shell / Main
 ##
 
@@ -373,6 +494,8 @@ mod_gnome_shell_master_config_install_main () {
 	mod_gnome_shell_main_config_install
 
 	mod_gnome_shell_keybind_config_install
+
+	mod_tool_config_install
 
 }
 
