@@ -9,7 +9,8 @@
 ##
 ## ## Link
 ##
-## * https://github.com/samwhelp/gnome-shell-enhance/blob/main/prototype/gnome-shell-layout-installer/profile/gnome-shell-layout-wincity.sh
+## * https://github.com/samwhelp/gnome-shell-adjustment/blob/main/demo/scripts/layout/gnome-shell-layout-wincity/gnome-shell-layout-wincity.sh
+## * https://raw.githubusercontent.com/samwhelp/gnome-shell-adjustment/refs/heads/main/demo/scripts/layout/gnome-shell-layout-wincity/gnome-shell-layout-wincity.sh
 ##
 
 
