@@ -24,7 +24,7 @@
 
 
 ##
-## ## Model / Keybind
+## ## Model / Gnome Shell / Keybind
 ##
 
 mod_gnome_shell_keybind_config_install () {
