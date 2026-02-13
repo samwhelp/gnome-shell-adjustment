@@ -354,6 +354,37 @@ sys_python_pipx_install_for_voidlinux () {
 
 
 ##
+## ## Model / Tips
+##
+
+sys_tips_on_done () {
+
+cat << __EOF__
+
+##
+## ## Done
+##
+## It's done.
+##
+## Please Logout and Login.
+##
+## For Example:
+##
+## run to logout.
+##
+## \`\`\` sh
+## gnome-session-quit
+## \`\`\`
+##
+
+__EOF__
+
+}
+
+
+
+
+##
 ## ## Portal
 ##
 
@@ -377,11 +408,19 @@ mod_gnome_shell_layout_install_main () {
 
 }
 
+mod_gnome_shell_layout_install_done () {
+
+	sys_tips_on_done
+
+}
+
 mod_gnome_shell_layout_install () {
 
 	mod_gnome_shell_layout_install_prepare
 
 	mod_gnome_shell_layout_install_main
+
+	mod_gnome_shell_layout_install_done
 
 }
 
