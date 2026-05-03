@@ -13,7 +13,7 @@
 ## Subject
 
 * [Script](#script)
-* [Resource](#Resource)
+* [Resource](#resource)
 * [Link](#link)
 
 
